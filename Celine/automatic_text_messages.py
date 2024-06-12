@@ -10,7 +10,7 @@ driver.maximize_window()
 driver.get('https://www.instagram.com')
 sleep(2)
 username="__iwritesometimes__"
-password="Tsp@223533"
+password="hi"
 
 # Login to the instagram page 
 driver.find_element_by_xpath("//*[@id='loginForm']/div/div[1]/div/label/input").send_keys(username)
